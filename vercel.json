@@ -6,12 +6,12 @@
     },
     "routes": [
         {
-            "src": "/SISTEM MONITORING STOK OBAT/(.*).php",
+            "src": "/(.*).php",
             "dest": "/SISTEM MONITORING STOK OBAT/$1.php"
         },
         {
             "src": "/(.*)",
-            "dest": "/$1"
+            "dest": "/SISTEM MONITORING STOK OBAT/$1"
         }
     ]
 }
