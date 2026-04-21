@@ -1,17 +1,17 @@
 {
     "functions": {
-        "SISTEM MONITORING STOK OBAT/*.php": {
+        "api/*.php": {
             "runtime": "vercel-php@0.7.1"
         }
     },
     "routes": [
         {
-            "src": "/(.*).php",
-            "dest": "/SISTEM MONITORING STOK OBAT/$1.php"
+            "src": "/api/(.*).php",
+            "dest": "/api/$1.php"
         },
         {
             "src": "/(.*)",
-            "dest": "/SISTEM MONITORING STOK OBAT/$1"
+            "dest": "/$1"
         }
     ]
 }
